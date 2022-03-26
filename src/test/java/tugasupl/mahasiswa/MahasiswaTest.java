@@ -39,7 +39,7 @@ class MahasiswaTest {
 	@Test
 	@DisplayName("Informatika, tapi bukan mahasiswa.")
 	void BukanMahasiswaNimBanyakTest() {
-		mhs3 = new Mahasiswa("24068748070817", "Bobi", "Pertanian", "2019");
+		mhs3 = new Mahasiswa("24068748070817", "Bobi", "Informatika", "2019");
 		checkMahasiswa cek = mock(checkMahasiswa.class);
 		isInformatika II = new isInformatika();
 		when(cek.isMhs()).thenReturn(false);
