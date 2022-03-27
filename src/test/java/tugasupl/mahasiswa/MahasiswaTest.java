@@ -26,7 +26,7 @@ class MahasiswaTest {
 	}
 	
 	@Test
-	@DisplayName("Bukan mahasiswa informatika.")
+	@DisplayName("Bukan mahasiswa, bukan mahasiswa informatika.")
 	void BukanMahasiswaInformatikaTest() {
 		mhs2 = new Mahasiswa("24070120301242", "Chiro", "Manajemen", "2020");
 		checkMahasiswa cek = mock(checkMahasiswa.class);
